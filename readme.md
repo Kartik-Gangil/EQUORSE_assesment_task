@@ -1,4 +1,4 @@
-# AI Support Request Router
+# EQUORSE_assesment_task
 
 A small full-stack app that takes support requests from a public form, stores them, classifies them into a category using an AI model (with a safe fallback), and shows them in an admin dashboard.
 
