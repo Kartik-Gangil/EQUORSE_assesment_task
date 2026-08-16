@@ -58,7 +58,7 @@ export function LoginForm() {
                 body: JSON.stringify({ email, password })
             })
             const data = await res.json();
-            console.log(data)
+            // console.log(data)
             if (data.success === false) setError(data.message)
             else {
                 localStorage.setItem(

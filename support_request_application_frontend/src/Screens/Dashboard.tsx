@@ -73,7 +73,7 @@ export function Dashboard() {
                 method: "GET"
             })
             const data = await res.json()
-            console.log(data)
+            // console.log(data)
             setRows(data);
         } catch (error) {
             console.error(error);
