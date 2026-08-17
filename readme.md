@@ -72,6 +72,9 @@ Vite will print the local URL (default `http://localhost:5173`).
 
 - `/` — the public support request form
 - `/login` — admin login
+-the sample credentials to bypass login
+```email :- admin@gmail.com password123456
+```
 - `/dashboard` — admin view of all submitted requests (requires logging in via `/login` first — see [Limitations](#7-assumptions-limitations-and-trade-offs))
 
 To create an admin user, call `POST /signup` once (e.g. with curl or Postman) with `{ "name", "email", "password" }`, then log in through `/login` in the UI.
