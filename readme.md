@@ -74,7 +74,7 @@ Vite will print the local URL (default `http://localhost:5173`).
 - `/login` — admin login
 -the sample credentials to bypass login
 ```bash
-email:- admin@gmail.com password123456
+email:- admin@gmail.com password:-123456
 ```
 - `/dashboard` — admin view of all submitted requests (requires logging in via `/login` first — see [Limitations](#7-assumptions-limitations-and-trade-offs))
 
